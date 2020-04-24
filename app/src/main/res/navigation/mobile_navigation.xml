@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/capturaFragment">
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.zapmex.zminventarios.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_home_second_to_capturaFragment2"
+            app:destination="@id/capturaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/capturaFragment"
+        android:name="com.zapmex.zminventarios.capturaFragment"
+        android:label="Captura"
+        tools:layout="@layout/fragment_captura" >
+        <action
+            android:id="@+id/action_capturaFragment_to_nav_home_second2"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarFragment"
+        android:name="com.zapmex.zminventarios.editarFragment"
+        android:label="Editar"
+        tools:layout="@layout/fragment_editar" />
+    <fragment
+        android:id="@+id/imexFragment"
+        android:name="com.zapmex.zminventarios.imexFragment"
+        android:label="Importar / Exportar"
+        tools:layout="@layout/fragment_imex" />
+</navigation>

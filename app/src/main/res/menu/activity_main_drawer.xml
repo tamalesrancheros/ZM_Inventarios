@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/capturaFragment"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Captura" />
+        <item
+            android:id="@+id/editarFragment"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Editar" />
+        <item
+            android:id="@+id/imexFragment"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="Importar/Exportar" />
+    </group>
+</menu>

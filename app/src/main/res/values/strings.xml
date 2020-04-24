@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ZM Inventarios</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Zapaterias México</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="menu_home">Captura</string>
+    <string name="menu_gallery">Editar</string>
+    <string name="menu_slideshow">Importar/Exportar</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

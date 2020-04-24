@@ -1,0 +1,2 @@
+rootProject.name='ZM Inventarios'
+include ':app'
